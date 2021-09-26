@@ -5,9 +5,10 @@ Simple Magento 2 module that adds pagination to attribute options in admin panel
 
 [![Attribute Pagination in Admin Panel](https://iili.io/RZpmQt.md.png)](https://freeimage.host/i/RZpmQt)
 
-Installation (in your Magento 2 directory):
+Installation (in your Magento 2 directory):\
+**THIS PACKAGE REQUIRES COMPOSER 2.x** 
 ```bash
-composer require enanobots/m2-attribute-pagination
+composer require enanobots/m2-attribute-pagination  --ignore-platform-reqs
 ```
 
 And run upgrade command:
