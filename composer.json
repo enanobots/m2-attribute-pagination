@@ -15,6 +15,7 @@
   "description": "Magento 2 Attribute Options Pagination in Admin Panel",
   "homepage": "https://github.com/enanobots/m2-attribute-pagination",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "autoload": {
     "files": [
       "src/module-attribute-pagination/registration.php"
