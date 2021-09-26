@@ -1,0 +1,26 @@
+{
+  "name": "enanobots/m2-attribute-pagination",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "email": "jwinkler@qsolutionsstudio.com",
+      "name": "Jakub Winkler"
+    },
+    {
+      "email": "nanobotsecommerce@gmail.com",
+      "name": "eCommerce Nanobots"
+    }
+  ],
+  "description": "Magento 2 Attribute Options Pagination in Admin Panel",
+  "homepage": "https://github.com/enanobots/m2-attribute-pagination",
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "src/module-attribute-pagination/registration.php"
+    ],
+    "psr-4": {
+      "Nanobots\\AttributeOptionPager\\": "src/module-attribute-pagination/"
+    }
+  }
+}

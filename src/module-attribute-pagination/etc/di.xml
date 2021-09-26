@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
+ * See LICENSE for license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Eav\Block\Adminhtml\Attribute\Edit\Options\Options" type="Nanobots\AttributeOptionPager\Block\Adminhtml\Attribute\Edit\Options\Options"/>
+</config>
