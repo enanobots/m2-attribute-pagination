@@ -1,9 +1,14 @@
-![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)
+![Open Source Love](https://img.shields.io/badge/open-source-lightgrey?style=for-the-badge&logo=github)
+![](https://img.shields.io/badge/Magento-2.2.x-orange?style=for-the-badge&logo=magento)
+![](https://img.shields.io/badge/Magento-2.3.x-orange?style=for-the-badge&logo=magento)
+![](https://img.shields.io/badge/Magento-2.4.x-orange?style=for-the-badge&logo=magento)
+![](https://img.shields.io/badge/Maintained-yes-gren?style=for-the-badge&logo=magento)
+
 ### Magento 2 Attribute Options Pagination
 
 Simple Magento 2 module that adds pagination to attribute options in admin panel.
 
-[![Attribute Pagination in Admin Panel](https://iili.io/RZpmQt.md.png)](https://freeimage.host/i/RZpmQt)
+[![5r8Sf9.md.png](https://iili.io/5r8Sf9.md.png)](https://freeimage.host/i/5r8Sf9)
 
 Installation (in your Magento 2 directory):\
 **THIS PACKAGE REQUIRES COMPOSER 2.x** 
