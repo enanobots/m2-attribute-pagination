@@ -1,7 +1,10 @@
 <?php
 /**
  * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
- * See LICENSE for license details.
+ * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com>
+ *
+ * @category    Nanobots
+ * @package     Nanobots_AttributeOptionPager
  */
 
 declare(strict_types=1);

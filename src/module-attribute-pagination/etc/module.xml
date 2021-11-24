@@ -2,7 +2,10 @@
 <!--
 /**
  * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
- * See LICENSE for license details.
+ * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com>
+ *
+ * @category    Nanobots
+ * @package     Nanobots_AttributeOptionPager
  */
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
