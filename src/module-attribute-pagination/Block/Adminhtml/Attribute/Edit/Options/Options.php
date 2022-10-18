@@ -70,7 +70,7 @@ class Options extends \Magento\Eav\Block\Adminhtml\Attribute\Edit\Options\Option
     {
         $type = $attribute->getFrontendInput();
         if ($type === 'select' || $type === 'multiselect') {
-            $defaultValues = explode(',', $attribute->getDefaultValue());
+            $defaultValues = explode(',', $attribute->getDefaultValue() ?? '');
             $inputType = $type === 'select' ? 'radio' : 'checkbox';
         } else {
             $defaultValues = [];
