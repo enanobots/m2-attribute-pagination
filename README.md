@@ -16,6 +16,11 @@ Installation (in your Magento 2 directory):\
 composer require enanobots/m2-attribute-pagination  --ignore-platform-reqs
 ```
 
+activate the module:
+```bash
+php bin/magento module:status Nanobots_AttributeOptionPager
+```
+
 And run upgrade command:
 ```bash
 php bin/magento setup:upgrade
