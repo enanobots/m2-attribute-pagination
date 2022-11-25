@@ -18,7 +18,7 @@ composer require enanobots/m2-attribute-pagination  --ignore-platform-reqs
 
 activate the module:
 ```bash
-php bin/magento module:status Nanobots_AttributeOptionPager
+php bin/magento module:enable Nanobots_AttributeOptionPager
 ```
 
 And run upgrade command:
