@@ -1,5 +1,8 @@
 # Change Log
 
+## Unreleased
+* add support for text/visual swatches
+
 ## Version 1.0.2
 * adding sort order field to attribute options
 * adding CHANGELOG.md file

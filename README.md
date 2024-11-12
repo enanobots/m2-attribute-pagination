@@ -33,5 +33,6 @@ Module should work out-of-the box
 - Magento 2.3.7 Open Source
 - Magento 2.4.2 Open Source
 - Magento 2.4.3 Open Source
+- Magento 2.4.7 Open Source
 
 If there are issues / problems, please open an issue within the repository or submit a pull request.
