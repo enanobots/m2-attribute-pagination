@@ -52,7 +52,7 @@ $stores = $block->getStoresSortedBySortOrder();
                         <span><?= $block->escapeHtml($_store->getName()) ?></span>
                     </th>
                 <?php endforeach; ?>
-                <th class="col-sort"><span><?= $block->escapeHtml(__('Sort Order')) ?></span></th>
+                <th class="col-swatch col-swatch-min-width col-<%- data.id %>"><span><?= $block->escapeHtml(__('Sort Order')) ?></span></th>
                 <?php $colTotal = count($stores) * 2 + 3; ?>
                 <th class="col-delete">&nbsp;</th>
             </tr>
@@ -106,9 +106,9 @@ $stores = $block->getStoresSortedBySortOrder();
                            placeholder="<?= $block->escapeHtmlAttr(__("Description")) ?>"/>
                 </td>
             <?php endforeach; ?>
-            <td class="col-default">
+            <td class="col-swatch col-swatch-min-width swatch-col-<%- data.id %>">
                 <?php if (!$block->getReadOnly() && !$block->canManageOptionDefaultOnly()) : ?>
-                    <input data-role="order" type="text" name="optiontext[order][<%- data.id %>]" size="6" value="<%- data.sort_order %>" <?php if ($block->getReadOnly() || $block->canManageOptionDefaultOnly()) :?> disabled="disabled"<?php endif; ?>/>
+                    <input data-role="order" type="text" name="optiontext[order][<%- data.id %>]" value="<%- data.sort_order %>" <?php if ($block->getReadOnly() || $block->canManageOptionDefaultOnly()) :?> disabled="disabled"<?php endif; ?>/>
                 <?php endif; ?>
             </td>
             <td id="delete_button_swatch_container_<%- data.id %>" class="col-delete">
